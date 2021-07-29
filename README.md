@@ -1,0 +1,1 @@
+This page contains an example of Google Search page
