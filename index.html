@@ -1,30 +1,50 @@
 <!DOCTYPE html>
 
-<body>
-    <div>
-        <img 
-        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
-        id="google-logo"
-        alt="Google logo">
-    </div>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Google
+        </title>
 
-    <form>
-        <img src="#" alt="Search icon" id="search-icon">
-        <input type="text" id="searching-bar">
-        <br>
-        <div id="buttons">
-            <button type="submit" id="search">Google Search</button>
-            <button type="submit" id="lucky">I'm Feeling Lucky</button>
-        </div>
+        <link rel="stylesheet" type="text/css" href="reset.css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="styles.css" media="screen"/>
         
-    </form>
-</body>
+    </head>
 
-<footer>
-    <a href="#" id="advertising">Advertising</a> 
-    <a href="#" id="business">Business</a> 
-    <a href="#" id="how-search-works">How Search Works</a> 
-    <a href="#" id="privacy">Privacy</a> 
-    <a href="#" id="terms">Terms</a> 
-    <a href="#" id="settings">Settings</a>
-</footer>
+    <body>
+        <div>
+            <img 
+            src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
+            id="google-logo"
+            alt="Google logo">
+        </div>
+    
+        <form action="#">
+            <!--
+                <img src="#" alt="Search icon" id="search-icon">
+            -->
+            <label for="s-bar"></label>
+            <input type="search" id="s-bar" name="s-bar">
+            <br>
+            <div id="buttons">
+                <button type="button" id="search-button">Google Search</button>
+                <button type="button" id="lucky-button">I'm Feeling Lucky</button>
+            </div>
+            
+        </form>
+    </body>
+    
+    <footer>
+        <ul>
+            <li><a href="#" id="advertising">Advertising</a> </li>
+            <li><a href="#" id="business">Business</a> </li>
+            <li><a href="#" id="how-search-works">How Search Works</a> </li>
+            <li><a href="#" id="privacy">Privacy</a> </li>
+            <li><a href="#" id="terms">Terms</a> </li>
+            <li><a href="#" id="settings">Settings</a> </li>
+        </ul>
+    </footer>
+
+</html>
+
