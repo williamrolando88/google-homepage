@@ -1,17 +1,19 @@
 # Google Homepage
+
 This is my very first web development project, please take a look at the live preview and enjoy yourself.
 Feel free to open an issue if your found something that could help me improve.
 
+![img](./src/screenshot.png)
 
-<!-- Include a paragraph of the app 
+<!-- Include a paragraph of the app
 
 ### 🖥️ Desktop version
 
-<!-- Include some screenshots of desktop version 
+<!-- Include some screenshots of desktop version
 
 ### 📱 Mobile version
 
-Include some screenshots of mobile version 
+Include some screenshots of mobile version
 
 ## ✅ Learning objectives
 
@@ -73,11 +75,13 @@ Feel free to check the [issues page](../../issues).
 Give a ⭐️ if you like this project!
 
 ## 👍 Credits
+
 <!--
 GUI & Graphic Design: Cindy Shin
 
 - Behance: [Cindy Shin](https://www.behance.net/adagio07)
 -->
+
 ## 📝 License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
