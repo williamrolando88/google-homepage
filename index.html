@@ -1,73 +1,68 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>
-            Google
-        </title>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Google</title>
 
-        <link rel="stylesheet" type="text/css" href="reset.css" media="screen"/>
-        <link rel="stylesheet" type="text/css" href="styles.css" media="screen"/>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="reset.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
 
-        
-    </head>
+  <body>
+    <div class="topbar">
+      <div id="ltb">
+        <a href="#">About</a>
+        <a href="#">Store</a>
+      </div>
+      <div class="rtp">
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <a href="#" id="appicon"><span class="material-icons">apps</span></a>
+        <button id="signin" type="button">Sign in</button>
+      </div>
+    </div>
 
-    <body>
+    <div class="content">
+      <div>
+        <img
+          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+          id="google-logo"
+          alt="Google logo"
+        />
+      </div>
 
-        <div class="topbar">
-            <div id="ltb">
-                <a href="#">About</a>
-                <a href="#">Store</a>
-            </div>
-            <div class="rtp">
-                <a href="#">Gmail</a>
-                <a href="#">Images</a>
-                <a href="#" id="appicon"><span class="material-icons">apps</span></a>
-                <button id="signin" type="button">Sign in</button>
-            </div>            
+      <form action="#">
+        <div id="searchbar">
+          <span class="material-icons" id="lens">search</span>
+          <label for="bar"></label>
+          <input type="search" id="bar" name="bar" />
+          <span class="material-icons" id="mic">mic</span>
         </div>
 
-        <div class="content">
-            <div>
-                <img 
-                src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
-                id="google-logo"
-                alt="Google logo">
-            </div>
-        
-            <form action="#">
-                <div id="searchbar">
-                    <span class="material-icons" id="lens">search</span>
-                    <label for="bar"></label>
-                    <input type="search" id="bar" name="bar">
-                    <span class="material-icons" id="mic">mic</span>
-                </div>
-                
-                <br>
-                <div id="buttons">
-                    <button type="button" id="search-button">Google Search</button>
-                    <button type="button" id="lucky-button">I'm Feeling Lucky</button>
-                </div>
-                
-            </form>
-
+        <br />
+        <div id="buttons">
+          <button type="button" id="search-button">Google Search</button>
+          <button type="button" id="lucky-button">I'm Feeling Lucky</button>
         </div>
+      </form>
+    </div>
 
-        //Here comes the footbar
-        <div class="footbar">
-            <div class="lfb">
-                <a href="#" id="adv">Advertising</a>
-                <a href="#" id="bus">Business</a>
-                <a href="#" id="hsw">How Search Works</a>
-            </div>
-            <div class="rfb">
-                <a href="#" id="pri">Privacy</a>
-                <a href="#" id="ter">Terms</a>
-                <a href="#" id="set">Settings</a>
-            </div>
-        </div>
-    </body>
+    <div class="footbar">
+      <div class="lfb">
+        <a href="#" id="adv">Advertising</a>
+        <a href="#" id="bus">Business</a>
+        <a href="#" id="hsw">How Search Works</a>
+      </div>
+      <div class="rfb">
+        <a href="#" id="pri">Privacy</a>
+        <a href="#" id="ter">Terms</a>
+        <a href="#" id="set">Settings</a>
+      </div>
+    </div>
+  </body>
 </html>
-
